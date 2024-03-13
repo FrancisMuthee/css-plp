@@ -31,10 +31,19 @@ h3{
     font-size: x-large;
     font-style: italic;
     text-align: center;
+    display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     /* align-content: center; */
 }
+.social{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; /* or any specific width */
+        font-size: 10rem;
+   }
+   
+
 
 @media screen and (max-width: 620px) {
     img {
